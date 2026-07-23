@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background-color:#f0fdf4;
+}
+
+h1{
+    text-align:center;
+    background-color:#14532d;
+    color:white;
+    padding:20px;
+    letter-spacing:3px;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:5px;
+    padding:20px;
+}
+
+.tile{
+    background-color:#dcfce7;
+    border:2px solid #14532d;
+}
+
+.tile img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    display:block;
+}
+
+.sticky-logo{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background-color:white;
+    padding:8px;
+    border-radius:50%;
+}
+
+.sticky-logo img{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+}
